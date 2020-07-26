@@ -39,18 +39,39 @@ if enter == "":
         print(colored("Habéis quedado empate :)", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Piedra")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Piedra' and eleccion == '2':
         os.system('clear')
         print(colored("Has ganado! :)", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Papel")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Piedra' and eleccion == '3':
         os.system('clear')
         print(colored("Has perdido! :(", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Tijera")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
 
     #Máquina = Papel
@@ -59,18 +80,39 @@ if enter == "":
         print(colored("Has perdido! :(", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Piedra")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Papel' and eleccion == '2':
         os.system('clear')
         print(colored("Habéis quedado empate! :)", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Papel")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Papel' and eleccion == '3':
         os.system('clear')
         print(colored("Has ganado! :)", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Tijera")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
 
     #Máquina = Tijeras
@@ -79,15 +121,36 @@ if enter == "":
         print(colored("Has ganado! :(", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Piedra")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Tijera' and eleccion == '2':
         os.system('clear')
         print(colored("Has perdido! :(", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Papel")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
 
     if random == 'Tijera' and eleccion == '3':
         os.system('clear')
         print(colored("Habéis quedado empate! :)", 'cyan'))
         print('')
         print(f"La elección de la máquina ha sido {random}, y la tuya ha sido Tijera")
+        print("")
+        terminar = input(colored("Quieres volver a jugar? (y/n): ", "yellow"))
+        if terminar == 'y':
+            os.system('python3 ppt.py')
+        else:
+            print("")
+            print(colored("Perfecto! Hasta la próxima!", "cyan"))
