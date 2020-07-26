@@ -1,5 +1,5 @@
 # Piedra, Papel o tijera.
-Seguro que conoces el típico juego de Piedra Papel o Tijera. Te apetece jugarlo cuando quieras, sin conexión, y fácilmente, haciendo el uso de tu terminal?
+El mítico juego de Piedra Papel o Tijera, desde la terminal.
 
 ![foto del juego](https://raw.githubusercontent.com/alvaroartano/piedra-papel-tijera/master/screenshot.png)
 
