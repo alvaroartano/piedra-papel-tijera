@@ -6,10 +6,10 @@ Seguro que conoces el típico juego de Piedra Papel o Tijera. Te apetece jugarlo
 
 ## Instalación
 
- 1 - Descargar y entrar en el repositorio
+ 1 - Descargar dependecias y entrar en la carpeta
  
 
-    git clone https://github.com/alvaroartano/piedra-papel-tijera.git && cd piedra-papel-tijera
+    git clone https://github.com/alvaroartano/piedra-papel-tijera.git && cd piedra-papel-tijera && pip3 install -r requirements.txt && pip install -r requirements.txt
 
 2 - Ejecutar el juego
 
