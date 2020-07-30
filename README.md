@@ -10,7 +10,6 @@ El mítico juego de Piedra Papel o Tijera, desde la terminal.
  
 
     git clone https://github.com/alvaroartano/piedra-papel-tijera.git && cd piedra-papel-tijera && pip3 install -r requirements.txt && pip install -r requirements.txt
-    (No uses sudo para hacer un git clone! ;) )
 
 2 - Ejecutar el juego
 
